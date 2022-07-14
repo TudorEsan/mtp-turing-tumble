@@ -66,7 +66,7 @@ export const AddArticle = () => {
       </Grid>
       <div data-color-mode="light">
         <MDEditor
-          color="secondary"
+          data-color-mode="light"
           preview="edit"
           value={markdownText}
           height={800}

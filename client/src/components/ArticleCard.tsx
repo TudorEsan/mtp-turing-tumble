@@ -23,7 +23,8 @@ export const ArticleCard = ({ article }: IArticleProps) => {
         maxWidth: 400,
         borderRadius: "20px",
         background: "#E5E5E5",
-        boxShadow: 10
+        boxShadow: 10,
+        minWidth: "280px",
       }}
     >
       <CardMedia
