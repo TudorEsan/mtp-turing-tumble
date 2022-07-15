@@ -50,13 +50,12 @@ export const Hitchhike = () => {
             </Grid>
             <Grid item xs={12}>
               <Typography
-                variant="body1"
+                variant="h5"
                 align="center"
                 maxWidth="600px"
                 margin="auto"
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                tempora impedit incidunt eligendi quam! Harum.
+                Teaching a parcel to catch rides
               </Typography>
             </Grid>
           </Grid>

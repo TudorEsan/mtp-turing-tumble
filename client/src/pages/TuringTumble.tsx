@@ -129,7 +129,7 @@ export const TuringTumble = () => {
             variant="h3"
             align="center"
           >
-            About this game
+            About 
           </Typography>
           <Typography variant="body1" align="center">
             In the game Turing Tumble, players construct mechanical computers
