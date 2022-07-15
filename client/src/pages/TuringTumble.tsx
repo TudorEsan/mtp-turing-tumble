@@ -75,6 +75,10 @@ const teamMembers = [
         url: "https://github.com/romanhess98",
         icon: "/github.svg",
       },
+      {
+        url: "https://www.linkedin.com/in/roman-he%C3%9F-b3a2101a3/",
+        icon: "/linkedin.svg",
+      },
     ],
   } as ITeamMember,
 ];
@@ -129,7 +133,7 @@ export const TuringTumble = () => {
             variant="h3"
             align="center"
           >
-            About 
+            About
           </Typography>
           <Typography variant="body1" align="center">
             In the game Turing Tumble, players construct mechanical computers
@@ -166,7 +170,6 @@ export const TuringTumble = () => {
         <Team team={teamMembers} />
         <Typography
           gutterBottom
-          marginTop={10}
           fontFamily="Anton"
           variant="h3"
           align="center"

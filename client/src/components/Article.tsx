@@ -58,7 +58,12 @@ export const Article = () => {
           </Grid>
         </Grid>
         <MDEditor.Markdown
-          style={{ padding: 15, maxWidth: "900px", margin: "auto" }}
+          style={{
+            padding: 15,
+            maxWidth: "900px",
+            margin: "0 auto 350px auto",
+            marginBottom: "100px",
+          }}
           source={article?.markdownText}
           linkTarget="_blank"
           // previewOptions={{
