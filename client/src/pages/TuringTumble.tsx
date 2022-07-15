@@ -56,6 +56,17 @@ const teamMembers = [
     ],
   } as ITeamMember,
   {
+    name: "Julie Naegelen",
+    description: "Mannheim Master Data Science Background in Economics (BSc)",
+    photo: "/photos/Julie.jpg",
+    social: [
+      {
+        url: "https://github.com/jnaeg",
+        icon: "/github.svg",
+      },
+    ],
+  } as ITeamMember,
+  {
     name: "Roman Hess",
     description: "Roman Hess M.Sc. Data Science Background in Psychology",
     photo: "/photos/Roman.jpg",

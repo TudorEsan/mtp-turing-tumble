@@ -197,8 +197,19 @@ export const Home = () => {
               <br />
               Working in one of the university’s rooms in the Mannheim castle
               with a view to the Schloss’ greenery made the exhausting hours of
-              work pass faster. Our friendship was already strongly bounded and
-              the work went better as expected.
+              work pass faster. Over the course of the week, we made strong
+              headway in both the theoretical foundation of our models and their
+              implementation, thanks to intense mentoring by our supervisors,
+              Christian Bartels, Jannik Brinkmann, and Andrej Tschalzev. This
+              would then prove to be the deciding cornerstone of the last weeks
+              of sprints before the finish line in August. As we worked the days
+              away, it felt increasingly incredible we had just met in February,
+              and had mostly interacted online, for the presence of the Romanian
+              team members in Mannheim seemed only natural and right. While
+              everyone breathed a sigh of relief as the final version of our
+              projects was uploaded to GitHub, we will certainly miss our
+              colleagues, and hope to visit each other in Romania and Germany
+              soon.
             </Typography>
           </Grid>
         </Grid>

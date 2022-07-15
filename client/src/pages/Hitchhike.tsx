@@ -1,4 +1,4 @@
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Grid, Link, Typography } from "@mui/material";
 import { color } from "@mui/system";
 import React from "react";
 import { colors } from "../colors";
@@ -33,7 +33,7 @@ export const Hitchhike = () => {
       <Box maxWidth="1200px" margin="0 auto" padding={3}>
         <Grid container justifyContent="center" spacing={4} alignItems="center">
           <Grid item md={6} xs={12}>
-            <Image src="/photos/babyloser.jpeg" />
+            <Image src="/photos/team2.jpeg" />
           </Grid>
           <Grid
             container
@@ -45,7 +45,7 @@ export const Hitchhike = () => {
           >
             <Grid item xs={12}>
               <Typography variant="h2" fontFamily="Anton" align="center">
-                Hichhike
+                Hitchhike
               </Typography>
             </Grid>
             <Grid item xs={12}>
@@ -68,23 +68,32 @@ export const Hitchhike = () => {
             variant="h3"
             align="center"
           >
-            Some Heading Title, VIDEO?
+            About
           </Typography>
           <Typography variant="body1" align="center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            alias debitis quas tempore non, culpa ullam deserunt dolore
-            accusantium in, ea ratione optio perspiciatis ab! Quo aspernatur
-            unde vero modi deserunt maxime aliquam, placeat molestias laboriosam
-            maiores incidunt quia a, asperiores quibusdam dolorum. Illum,
-            blanditiis fuga! Animi recusandae cupiditate ad? Lorem ipsum dolor
-            sit amet consectetur, adipisicing elit. Commodi aliquid magni
-            dolores, soluta, aspernatur animi accusamus autem inventore maiores
-            architecto optio sed incidunt tempore laudantium asperiores ex
-            voluptatum? Quae sed commodi aliquid laudantium rerum accusantium
-            sit quod veniam fuga recusandae voluptas perspiciatis, ea obcaecati
-            illum, placeat saepe amet nulla. Debitis mollitia ab aperiam
-            veritatis quae corporis praesentium, ratione soluta quis nam atque
-            rem, nobis hic facilis inventore incidunt. Optio, quod!
+            Our aim was to implement a more cost-effective and environmentally
+            friendly solution to deliver parcels from companies to customers by
+            letting the parcel ‘hitchhike’ with taxis that are already in
+            traffic. This reduces transport costs, reduces pollution and reduces
+            traffic congestion. To train this ‘intelligent parcel’, we used
+            Reinforcement Learning on historical Manhattan traffic data. For
+            more information, see our{" "}
+            <Link
+              color="#D04E4E"
+              fontWeight="bold"
+              href="https://github.com/noahmtnr/ines-autonomous-dispatching.git"
+            >
+              github repository
+            </Link>{" "}
+            and{" "}
+            <Link
+              color="#D04E4E"
+              fontWeight="bold"
+              href="https://www.institute-for-enterprise-systems.de/index.php?id=68&tx_news_pi1%5Bnews%5D=98&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=f9e994c2bb085635e334e09015a8d3b3"
+            >
+              current research at InEs
+            </Link>
+            .
           </Typography>
         </Box>
         <Typography
