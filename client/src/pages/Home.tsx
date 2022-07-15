@@ -17,7 +17,7 @@ export const Home = () => {
           maxWidth="1400px"
         >
           <Grid padding={2} item md={6} xs={12}>
-            <Image src="/photos/IN-DI-BININGIN.PNG" />
+            <Image src="/photos/team.jpeg" />
           </Grid>
           <Grid
             padding={2}
@@ -30,27 +30,15 @@ export const Home = () => {
             xs={12}
           >
             <Grid item>
-              <Typography
-                variant="h2"
-                align="center"
-                fontWeight="bold"
-                fontFamily="Bebas Neue"
-              >
-                Some Title
+              <Typography variant="h2" align="center" fontFamily="Anton">
+                European Master Team Project 2022
               </Typography>
             </Grid>
             <Grid item>
-              <Typography align="center" variant="body1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Incidunt, tempore. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Eos id reiciendis voluptas suscipit molestias
-                ut ipsam sit sint perspiciatis perferendis. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Aut numquam ipsam
-                molestiae tempore perferendis, facilis corporis officiis
-                aliquam, veritatis eveniet omnis voluptatum voluptatibus ex
-                inventore optio, voluptate repellendus alias. Ipsum rem ad
-                perferendis maxime fugiat suscipit sunt distinctio iure
-                obcaecati?
+              <Typography align="center" variant="h5">
+                Gaining hands-on experience working on international teams and
+                adhering to agile development practice, finished executable
+                project, technical knowledge.
               </Typography>
             </Grid>
           </Grid>
@@ -60,7 +48,7 @@ export const Home = () => {
             position: "relative",
             left: "0",
             height: "200px",
-            bottom: '-10px'
+            bottom: "-10px",
           }}
           fill="white"
           paused={false}
@@ -90,20 +78,20 @@ export const Home = () => {
             justifyContent="center"
             alignItems="center"
             padding={2}
+            mb={4}
           >
             <Grid item md={6} xs={12}>
               <Typography
                 align="center"
                 variant="h3"
                 color="#13293d"
-                fontWeight="bold"
-                fontFamily="Bebas Neue"
+                fontFamily="Anton"
               >
                 Cluj Trip!
               </Typography>
               <Typography
                 variant="body1"
-                fontFamily="Bebas Neue"
+                fontFamily="Anton"
                 align="center"
                 color="#13293d"
               >
@@ -111,7 +99,7 @@ export const Home = () => {
               </Typography>
             </Grid>
             <Grid item md={6} xs={12}>
-              <Image src="/photos/HERR-WINTER.png" />
+              <Image src="/photos/Cluj.jpeg" />
             </Grid>
           </Grid>
           <Grid item xs={12}>
@@ -119,14 +107,29 @@ export const Home = () => {
               color="#13293d"
               maxWidth="800px"
               variant="body1"
-              align="center"
+              fontSize={20}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea labore
-              et blanditiis tenetur totam vitae dolorum, at saepe corrupti
-              facere eveniet consequatur quas eius, quae iure aut atque
-              laboriosam quia! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Esse modi dignissimos enim saepe dolores nihil
-              dolorum id, blanditiis reiciendis nulla.
+              For one week in May, we worked together in Cluj-Napoca. It was an
+              intensive week of getting to know each other personally, working
+              hard, sightseeing and also experiencing a new culture. We had the
+              chance to work at the offices of MHP in downtown Cluj, where we
+              enjoyed great amenities and a phenomenal view over the city.
+              <br />
+              <br />
+              The week started with a 24h hackathon and continued with a
+              traditional Romanian dinner, an explorative walk through sunny
+              Cluj over the weekend, a hike in the Cheile Turzii, 9am coffee at
+              MHP headquarters followed by intense hours of work, a visit of a
+              football match that ended in the victory and championship of
+              Cluj's local team, and evenings with music and stories in the
+              heart of Cluj - these were just some of our activities together.
+              <br />
+              <br />
+              In the end, the days seemed to go by faster than we would have
+              liked, and the week concluded with a presentation of our projects
+              and the results of the week at NTT DATA headquarters in front of
+              sixty second year Informatics students of Babeș-Bolyai. All in
+              all, we were on our feet 24/7 but it was an amazing experience!
             </Typography>
           </Grid>
         </Grid>
@@ -166,35 +169,36 @@ export const Home = () => {
             alignItems="center"
             padding={4}
           >
-            <Grid item md={6} xs={12}>
-              <Image src="/photos/DEUTSCH.png" />
+            <Grid item md={6} xs={12} mb={4}>
+              <Image src="/photos/GroupPhoto.jpeg" />
             </Grid>
             <Grid padding={2} item md={6} xs={12}>
-              <Typography
-                align="center"
-                variant="h3"
-                fontWeight="bold"
-                fontFamily="Bebas Neue"
-              >
+              <Typography align="center" variant="h3" fontFamily="Anton">
                 Mannheim Trip!
               </Typography>
-              <Typography
-                variant="body1"
-                fontFamily="Bebas Neue"
-                align="center"
-              >
+              <Typography variant="body1" fontFamily="Anton" align="center">
                 10-July-2022 - 17-July-2022
               </Typography>
             </Grid>
           </Grid>
           <Grid item xs={12}>
-            <Typography maxWidth="800px" variant="body1" align="center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea labore
-              et blanditiis tenetur totam vitae dolorum, at saepe corrupti
-              facere eveniet consequatur quas eius, quae iure aut atque
-              laboriosam quia! Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Esse modi dignissimos enim saepe dolores nihil
-              dolorum id, blanditiis reiciendis nulla.
+            <Typography
+              maxWidth="800px"
+              variant="body1"
+              marginBottom={10}
+              fontSize={20}
+            >
+              In July it was time for the students from Cluj to visit the
+              Mannheim students. Apart from continuing to work on our projects,
+              we went hiking along the Weinstrasse, visited some of Mannheim’s
+              bars in the famous Jungbusch, tasted German beer and food (Mensa
+              too… ), and took an evening trip to beautiful Heidelberg.
+              <br />
+              <br />
+              Working in one of the university’s rooms in the Mannheim castle
+              with a view to the Schloss’ greenery made the exhausting hours of
+              work pass faster. Our friendship was already strongly bounded and
+              the work went better as expected.
             </Typography>
           </Grid>
         </Grid>

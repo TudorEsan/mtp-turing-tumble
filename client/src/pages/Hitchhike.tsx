@@ -44,12 +44,7 @@ export const Hitchhike = () => {
             alignItems="center"
           >
             <Grid item xs={12}>
-              <Typography
-                variant="h2"
-                fontFamily="Bebas Neue"
-                fontWeight="bold"
-                align="center"
-              >
+              <Typography variant="h2" fontFamily="Anton" align="center">
                 Hichhike
               </Typography>
             </Grid>
@@ -68,11 +63,10 @@ export const Hitchhike = () => {
         </Grid>
         <Box marginTop={10}>
           <Typography
-            fontFamily="Bebas Neue"
+            fontFamily="Anton"
             gutterBottom
             variant="h3"
             align="center"
-            fontWeight="bold"
           >
             Some Heading Title, VIDEO?
           </Typography>
@@ -96,10 +90,9 @@ export const Hitchhike = () => {
         <Typography
           gutterBottom
           marginTop={10}
-          fontFamily="Bebas Neue"
+          fontFamily="Anton"
           variant="h3"
           align="center"
-          fontWeight="bold"
         >
           Articles
         </Typography>

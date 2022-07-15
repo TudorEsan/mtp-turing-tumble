@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router";
 import { Article } from "./components/Article";
-import { Editor } from "./components/Editor";
 import { AddArticle } from "./pages/AddArticle";
 import { DeleteArticle } from "./pages/DeleteArticle";
 import { EditArticle } from "./pages/EditArticle";
@@ -18,6 +17,7 @@ export const AppRoutes = () => {
       <Route path=":articleType/add" element={<AddArticle />} />
       <Route path=":articleType/:id/delete" element={<DeleteArticle />} />
       <Route path="/hitchhike" element={<Hitchhike />} />
+      <Route path=":articleType/:id/edit" element={<EditArticle />} />
     </Routes>
   );
 };

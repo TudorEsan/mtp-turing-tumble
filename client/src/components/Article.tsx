@@ -37,8 +37,7 @@ export const Article = () => {
             <Grid item xs={12} md={6}>
               <Typography
                 variant="h2"
-                fontFamily="Bebas Neue"
-                fontWeight="bold"
+                fontFamily="Anton"
                 align="center"
                 color={colors.blue}
               >
@@ -46,7 +45,7 @@ export const Article = () => {
               </Typography>
               <Typography
                 variant="body1"
-                fontFamily="Bebas Neue"
+                fontFamily="Anton"
                 align="center"
                 color={colors.blue}
               >
@@ -59,7 +58,7 @@ export const Article = () => {
           </Grid>
         </Grid>
         <MDEditor.Markdown
-          style={{ padding: 15 }}
+          style={{ padding: 15, maxWidth: "900px", margin: "auto" }}
           source={article?.markdownText}
           linkTarget="_blank"
           // previewOptions={{

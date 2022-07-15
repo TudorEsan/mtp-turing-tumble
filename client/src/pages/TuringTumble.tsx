@@ -1,9 +1,72 @@
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Grid, Link, Typography } from "@mui/material";
 import { color } from "@mui/system";
 import React from "react";
 import { colors } from "../colors";
 import { Articles } from "../components/Articles";
 import { Image } from "../components/Image";
+import { Team } from "../components/Team";
+import { ITeamMember } from "../types/team";
+
+const teamMembers = [
+  {
+    name: "Timur Carsten",
+    description: "Data Science Master Student at the University of Mannheim",
+    photo: "/photos/Timur.png",
+    social: [
+      {
+        url: "https://www.linkedin.com/in/tmcarstensen/",
+        icon: "/linkedin.svg",
+      },
+      {
+        url: "https://github.com/timurcarstensen",
+        icon: "/github.svg",
+      },
+    ],
+  } as ITeamMember,
+  {
+    name: "Tudor Esan",
+    description:
+      "Software Engineering student that is very good at googling stuff.",
+    photo: "/photos/Tudor.jpg",
+    social: [
+      {
+        url: "https://www.linkedin.com/in/tudoresan",
+        icon: "/linkedin.svg",
+      },
+      {
+        url: "https://github.com/tudoresan",
+        icon: "/github.svg",
+      },
+    ],
+  } as ITeamMember,
+  {
+    name: "Raluca Chis",
+    description:
+      "Applied Computational Intelligence Student at UBB Cluj-Napoca",
+    photo: "/photos/Raluca.jpeg",
+    social: [
+      {
+        url: "https://www.linkedin.com/in/raluca-diana-chis-638769171/",
+        icon: "/linkedin.svg",
+      },
+      {
+        url: "https://github.com/RalucaChis",
+        icon: "/github.svg",
+      },
+    ],
+  } as ITeamMember,
+  {
+    name: "Roman Hess",
+    description: "Roman Hess M.Sc. Data Science Background in Psychology",
+    photo: "/photos/Roman.jpg",
+    social: [
+      {
+        url: "https://github.com/romanhess98",
+        icon: "/github.svg",
+      },
+    ],
+  } as ITeamMember,
+];
 
 export const TuringTumble = () => {
   return (
@@ -33,58 +96,67 @@ export const TuringTumble = () => {
       <Box maxWidth="1200px" margin="0 auto" padding={3}>
         <Grid container justifyContent="center" spacing={4} alignItems="center">
           <Grid item md={6} xs={12}>
-            <Image src="/photos/DEUTSCH.png" />
+            <Image src="/photos/team1.jfif" />
           </Grid>
           <Grid container item md={6} xs={12}>
             <Grid item xs={12}>
-              <Typography
-                variant="h2"
-                fontFamily="Bebas Neue"
-                fontWeight="bold"
-                align="center"
-              >
+              <Typography variant="h2" fontFamily="Anton" align="center">
                 Turing Tumble
               </Typography>
             </Grid>
             <Grid item xs={12}>
-              <Typography variant="body1" align="center" maxWidth="600px">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                tempora impedit incidunt eligendi quam! Harum.
+              <Typography variant="h5" align="center" maxWidth="600px">
+                Teaching a reinforcement learning agent to play turing tumble
               </Typography>
             </Grid>
           </Grid>
         </Grid>
         <Box marginTop={10}>
           <Typography
-            fontFamily="Bebas Neue"
+            fontFamily="Anton"
             gutterBottom
             variant="h3"
             align="center"
-            fontWeight="bold"
           >
-            Some Heading Title, VIDEO?
+            About this game
           </Typography>
           <Typography variant="body1" align="center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet,
-            alias debitis quas tempore non, culpa ullam deserunt dolore
-            accusantium in, ea ratione optio perspiciatis ab! Quo aspernatur
-            unde vero modi deserunt maxime aliquam, placeat molestias laboriosam
-            maiores incidunt quia a, asperiores quibusdam dolorum. Illum,
-            blanditiis fuga! Animi recusandae cupiditate ad? Lorem ipsum dolor
-            sit amet consectetur, adipisicing elit. Commodi aliquid magni
-            dolores, soluta, aspernatur animi accusamus autem inventore maiores
-            architecto optio sed incidunt tempore laudantium asperiores ex
-            voluptatum? Quae sed commodi aliquid laudantium rerum accusantium
-            sit quod veniam fuga recusandae voluptas perspiciatis, ea obcaecati
-            illum, placeat saepe amet nulla. Debitis mollitia ab aperiam
-            veritatis quae corporis praesentium, ratione soluta quis nam atque
-            rem, nobis hic facilis inventore incidunt. Optio, quod!
+            In the game Turing Tumble, players construct mechanical computers
+            that use the flow of marbles along a board to solve logic problems.
+            As the board and its parts are Turing complete, which means that
+            they can be used to express any mathematical function, an
+            intelligent agent taught to solve a Turing Tumble challenge
+            essentially learns how to write code according to a given
+            specification.
+            <br />
+            <br />
+            Following this logic, we taught an agent how to write a simple
+            program according to a minimal specification, using an abstracted
+            version of the Turing Tumble board as reinforcement learning
+            training environment. This is related to the emerging field of
+            program synthesis, as is for example applied in GitHub’s{" "}
+            <Link
+              color="#D04E4E"
+              fontWeight="bold"
+              href="https://docs.github.com/en/copilot/overview-of-github-copilot/about-github-copilot"
+            >
+              CoPilot
+            </Link>{" "}
+            For more details, please see our{" "}
+            <Link
+              color="#D04E4E"
+              fontWeight="bold"
+              href="https://github.com/timurcarstensen/mtp-ai-turing-tumble"
+            >
+              GitHub repository
+            </Link>
           </Typography>
         </Box>
+        <Team team={teamMembers} />
         <Typography
           gutterBottom
           marginTop={10}
-          fontFamily="Bebas Neue"
+          fontFamily="Anton"
           variant="h3"
           align="center"
           fontWeight=""
