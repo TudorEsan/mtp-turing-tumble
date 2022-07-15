@@ -58,7 +58,7 @@ const teamMembers = [
   {
     name: "Julie Naegelen",
     description: "Mannheim Master Data Science Background in Economics (BSc)",
-    photo: "/photos/Julie.jpg",
+    photo: "/photos/julie.jpeg",
     social: [
       {
         url: "https://github.com/jnaeg",
