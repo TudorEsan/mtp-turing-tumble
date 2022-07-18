@@ -81,6 +81,21 @@ const teamMembers = [
       },
     ],
   } as ITeamMember,
+  {
+    name: "Tobias Sesterhenn",
+    description: "Data Science Master Student at the University of Mannheim",
+    photo: "/photos/Tobi.jpg",
+    social: [
+      {
+        url: "https://github.com/tsesterh",
+        icon: "/github.svg",
+      },
+      {
+        url: "http://www.linkedin.com/in/tobiassesterhenn/",
+        icon: "/linkedin.svg",
+      },
+    ],
+  } as ITeamMember,
 ];
 
 export const TuringTumble = () => {

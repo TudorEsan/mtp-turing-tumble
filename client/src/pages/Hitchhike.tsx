@@ -4,6 +4,63 @@ import React from "react";
 import { colors } from "../colors";
 import { Articles } from "../components/Articles";
 import { Image } from "../components/Image";
+import { Team } from "../components/Team";
+import { ITeamMember } from "../types/team";
+
+const teamMembers = [
+  {
+    name: "Lukas Kirchdorfer",
+    description: "Data Science Master Student at the University of Mannheim",
+    photo: "/photos/Lukas.jpeg",
+    social: [
+      {
+        url: "https://www.linkedin.com/in/lukas-kirchdorfer/",
+        icon: "/linkedin.svg",
+      },
+      {
+        url: "https://github.com/qm2021-lkirchdo",
+        icon: "/github.svg",
+      },
+    ],
+  } as ITeamMember,
+  {
+    name: "Denisa Dragota",
+    description: "Computer Science Student at UBB Cluj-Napoca",
+    photo: "/photos/Denisa.jpeg",
+    social: [
+      {
+        url: "https://www.linkedin.com/in/denisa-cristina-dragota",
+        icon: "/linkedin.svg",
+      },
+    ],
+  } as ITeamMember,
+  {
+    name: "Maren Ehrgott",
+    description: "Business Informatics Student at the University of Mannheim",
+    photo: "/photos/Maren.jpg",
+    social: [
+      {
+        url: "https://www.linkedin.com/in/maren-ehrgott/",
+        icon: "/linkedin.svg",
+      },
+    ],
+  } as ITeamMember,
+  {
+    name: "Agnieszka Lenart",
+    description: "Data Science Master Student at the University of Mannheim",
+    photo: "/photos/Aga.jpeg",
+    social: [
+      {
+        url: "https://www.linkedin.com/in/agnieszka-lenart-07997618a/",
+        icon: "/linkedin.svg",
+      },
+      {
+        url: "https://github.com/agnieszkalenart",
+        icon: "/github.svg",
+      },
+    ],
+  } as ITeamMember,
+];
 
 export const Hitchhike = () => {
   return (
@@ -95,6 +152,7 @@ export const Hitchhike = () => {
             .
           </Typography>
         </Box>
+        <Team team={teamMembers} />
         <Typography
           gutterBottom
           marginTop={10}
