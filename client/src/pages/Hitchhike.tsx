@@ -60,6 +60,37 @@ const teamMembers = [
       },
     ],
   } as ITeamMember,
+  {
+    name: "Noah Mautner",
+    description: "Data Science Master Student at the University of Mannheim",
+    photo: "/photos/Noah.jpeg",
+    social: [
+      {
+        url: "https://github.com/noahmtnr",
+        icon: "/linkedin.svg",
+      },
+      {
+        url: "https://www.linkedin.com/in/noahmautner/",
+        icon: "/github.svg",
+      },
+    ],
+  } as ITeamMember,
+  {
+    name: "Cosmina Ionut",
+    description:
+      "Advanced Information Systems Master Student at UBB Cluj-Napoca",
+    photo: "/photos/Cosmina.jpeg",
+    social: [
+      {
+        url: "https://www.linkedin.com/in/cosmina-ionut-33aa69246",
+        icon: "/linkedin.svg",
+      },
+      {
+        url: "https://github.com/CosminaIonut",
+        icon: "/github.svg",
+      },
+    ],
+  } as ITeamMember,
 ];
 
 export const Hitchhike = () => {
