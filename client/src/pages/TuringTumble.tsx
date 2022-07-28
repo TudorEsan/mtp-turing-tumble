@@ -9,7 +9,7 @@ import { ITeamMember } from "../types/team";
 
 const teamMembers = [
   {
-    name: "Timur Carsten",
+    name: "Timur Carstensen",
     description: "Data Science Master Student at the University of Mannheim",
     photo: "/photos/Timur.png",
     social: [
