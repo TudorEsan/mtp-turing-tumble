@@ -25,8 +25,7 @@ const teamMembers = [
   } as ITeamMember,
   {
     name: "Tudor Esan",
-    description:
-      "Software Engineering student that is very good at googling stuff.",
+    description: "Software Engineering student at UBB Cluj-Napoca",
     photo: "/photos/Tudor.jpg",
     social: [
       {
@@ -57,7 +56,8 @@ const teamMembers = [
   } as ITeamMember,
   {
     name: "Julie Naegelen",
-    description: "Mannheim Master Data Science Background in Economics (BSc)",
+    description:
+      "Data Science Master Student at the University of Mannheim",
     photo: "/photos/julie.jpeg",
     social: [
       {
@@ -68,7 +68,8 @@ const teamMembers = [
   } as ITeamMember,
   {
     name: "Roman Hess",
-    description: "Roman Hess M.Sc. Data Science Background in Psychology",
+    description:
+      "Data Science Master Student at the University of Mannheim",
     photo: "/photos/Roman.jpg",
     social: [
       {
@@ -136,7 +137,7 @@ export const TuringTumble = () => {
             </Grid>
             <Grid item xs={12}>
               <Typography variant="h5" align="center" maxWidth="600px">
-                Teaching a reinforcement learning agent to play turing tumble
+                Teaching a Reinforcement Learning Agent to Play a Board Game
               </Typography>
             </Grid>
           </Grid>

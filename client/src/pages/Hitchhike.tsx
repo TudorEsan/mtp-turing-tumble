@@ -143,7 +143,7 @@ export const Hitchhike = () => {
                 maxWidth="600px"
                 margin="auto"
               >
-                Teaching a parcel to catch rides
+                Teaching a Parcel to Catch Rides
               </Typography>
             </Grid>
           </Grid>
