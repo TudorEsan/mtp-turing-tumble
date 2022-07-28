@@ -36,7 +36,7 @@ export const Home = () => {
             </Grid>
             <Grid item>
               <Typography align="center" variant="h5">
-                Gaining hands-on experience working on international teams and
+                Gaining hands-on experience, working on international teams and
                 adhering to agile development practice, finished executable
                 project, technical knowledge.
               </Typography>
@@ -128,7 +128,7 @@ export const Home = () => {
               In the end, the days seemed to go by faster than we would have
               liked, and the week concluded with a presentation of our projects
               and the results of the week at NTT DATA headquarters in front of
-              sixty second year Informatics students of Babeș-Bolyai. All in
+              sixty second-year Informatics students from Babeș-Bolyai. All in
               all, we were on our feet 24/7 but it was an amazing experience!
             </Typography>
           </Grid>
@@ -195,16 +195,16 @@ export const Home = () => {
               too… ), and took an evening trip to beautiful Heidelberg.
               <br />
               <br />
-              Working in one of the university’s rooms in the Mannheim castle
-              with a view to the Schloss’ greenery made the exhausting hours of
+              Working in one of the university’s rooms in the Mannheim Castle,
+              with a view to the Schloss’ greenery, made the exhausting hours of
               work pass faster. Over the course of the week, we made strong
               headway in both the theoretical foundation of our models and their
               implementation, thanks to intense mentoring by our supervisors,
-              Christian Bartels, Jannik Brinkmann, and Andrej Tschalzev. This
+              Christian Bartelt, Jannik Brinkmann, and Andrej Tschalzev. This
               would then prove to be the deciding cornerstone of the last weeks
               of sprints before the finish line in August. As we worked the days
-              away, it felt increasingly incredible we had just met in February,
-              and had mostly interacted online, for the presence of the Romanian
+              away, it felt increasingly incredible. Although we had just met in 
+              February and had mostly interacted online, the presence of the Romanian
               team members in Mannheim seemed only natural and right. While
               everyone breathed a sigh of relief as the final version of our
               projects was uploaded to GitHub, we will certainly miss our
