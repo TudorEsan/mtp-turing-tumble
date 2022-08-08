@@ -34,13 +34,8 @@ export const Home = () => {
                 European Master Team Project 2022
               </Typography>
             </Grid>
-            <Grid item>
-              <Typography align="center" variant="h5">
-                Gaining hands-on experience working on international teams and
-                adhering to agile development practice, finished executable
-                project, technical knowledge.
-              </Typography>
-            </Grid>
+            {/* <Grid item> <Typography align="center" variant="h5"> Gaining hands-on experience working on international teams and adhering to agile development practice, finished executable project, technical knowledge.  </Typography>
+            </Grid> */}
           </Grid>
         </Grid>
         <Wave

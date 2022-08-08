@@ -14,7 +14,7 @@ const teamMembers = [
     photo: "/photos/Lukas.jpeg",
     social: [
       {
-        url: "https://www.linkedin.com/in/lukas-kirchdorfer/",
+        url: "https://github.com/lukaskirchdorfer",
         icon: "/linkedin.svg",
       },
       {
@@ -168,7 +168,7 @@ export const Hitchhike = () => {
             <Link
               color="#D04E4E"
               fontWeight="bold"
-              href="https://github.com/noahmtnr/ines-autonomous-dispatching.git"
+              href="https://github.com/noahmtnr/ines-autonomous-dispatching"
             >
               github repository
             </Link>{" "}

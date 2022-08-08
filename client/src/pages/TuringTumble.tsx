@@ -56,8 +56,7 @@ const teamMembers = [
   } as ITeamMember,
   {
     name: "Julie Naegelen",
-    description:
-      "Data Science Master Student at the University of Mannheim",
+    description: "Data Science Master Student at the University of Mannheim",
     photo: "/photos/julie.jpeg",
     social: [
       {
@@ -68,8 +67,7 @@ const teamMembers = [
   } as ITeamMember,
   {
     name: "Roman Hess",
-    description:
-      "Data Science Master Student at the University of Mannheim",
+    description: "Data Science Master Student at the University of Mannheim",
     photo: "/photos/Roman.jpg",
     social: [
       {
@@ -177,7 +175,7 @@ export const TuringTumble = () => {
             <Link
               color="#D04E4E"
               fontWeight="bold"
-              href="https://github.com/timurcarstensen/mtp-ai-turing-tumble"
+              href="https://github.com/timurcarstensen/emtp22-ai-turing-tumble"
             >
               GitHub repository
             </Link>
